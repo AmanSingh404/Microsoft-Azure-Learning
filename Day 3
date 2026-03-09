@@ -1,0 +1,77 @@
+# Day 3 – Azure Networking Fundamentals
+
+## Objective
+Understand Azure networking concepts and create a custom Virtual Network with subnets.
+
+---
+
+## What is a Virtual Network (VNet)?
+
+A Virtual Network (VNet) in Microsoft Azure is a logically isolated network where Azure resources such as Virtual Machines can securely communicate with each other.
+
+It works similar to a traditional network in a data center but is hosted in the cloud.
+
+Example:
+Multiple VMs deployed inside the same VNet can communicate using private IP addresses.
+
+---
+
+## What is a Subnet?
+
+A Subnet is a smaller network inside a Virtual Network. Subnets help organize resources and control traffic flow.
+
+Example:
+VNet Address Space: 10.0.0.0/16
+
+Subnets:
+- Subnet-Web → 10.0.1.0/24
+- Subnet-App → 10.0.2.0/24
+
+Subnets improve security and network segmentation.
+
+---
+
+## What is a Network Security Group (NSG)?
+
+A Network Security Group acts as a firewall in Azure. It controls inbound and outbound traffic to Azure resources.
+
+Example rules:
+- Allow Port 22 → SSH access
+- Allow Port 80 → HTTP web traffic
+
+If a port is blocked in NSG, the service running on that port cannot be accessed.
+
+---
+
+## Practical Implementation
+
+Steps performed:
+
+1. Created a Virtual Network named **VNet-Learning**
+2. Defined Address Space: **10.0.0.0/16**
+3. Created two subnets:
+   - Subnet-Web → 10.0.1.0/24
+   - Subnet-App → 10.0.2.0/24
+4. Deployed 2 Linux Virtual Machine inside **Subnet-Web and Subnet-App**
+5. Testing VM Communication
+
+SSH into vm-web and tested connectivity with vm-app using the ping command.
+Command used: ping 10.0.2.4
+
+Result:
+Successful communication between both virtual machines using private IP addresses inside the Azure Virtual Network.
+
+---
+
+## Architecture Overview
+
+Internet → Public IP → Azure Virtual Network → Subnet → Virtual Machine
+
+---
+
+## Key Learnings
+
+- Azure Virtual Network provides network isolation.
+- Subnets divide networks for better organization and security.
+- Network Security Groups control traffic using rules.
+- Azure VMs communicate internally using private IP addresses.
