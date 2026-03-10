@@ -1,4 +1,4 @@
-# Day 5 – Cloud Troubleshooting and Monitoring
+# Day 4 – Cloud Troubleshooting and Monitoring
 
 ## Objective
 Learn how to identify and fix common issues in a cloud environment.
