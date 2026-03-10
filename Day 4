@@ -30,6 +30,8 @@ sudo systemctl restart nginx
 
 The web server successfully forwarded requests to the application server through the internal Azure network.
 
+## Architecture Diagram
+
 ## Key Learning
 
 Reverse proxy architecture improves security and allows backend servers to remain private.
