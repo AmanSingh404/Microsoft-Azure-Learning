@@ -32,6 +32,24 @@ The web server successfully forwarded requests to the application server through
 
 ## Architecture Diagram
 
+![VNet Subnets](vnet-subnets.png)
+
+## VM Web Public IP
+
+![VM Web Public IP](vm-web-public-ip.png)
+
+## VM App Private IP
+
+![VM App Private IP](vm-app-private-ip.png)
+
+## Nginx Configuration
+
+![Nginx Terminal](nginx-terminal.png)
+
+## Browser Output
+
+![Browser Output](browser-output.png)
+
 ## Key Learning
 
 Reverse proxy architecture improves security and allows backend servers to remain private.
