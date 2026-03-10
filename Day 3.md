@@ -1,4 +1,4 @@
-# Day 4 – Two Tier Architecture with Nginx Reverse Proxy
+# Day 3 – Two Tier Architecture with Nginx Reverse Proxy
 
 ## Objective
 
