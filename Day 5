@@ -1,0 +1,44 @@
+# Day 5 – Cloud Troubleshooting and Monitoring
+
+## Objective
+Learn how to identify and fix common issues in a cloud environment.
+
+## Troubleshooting Scenarios
+
+### Scenario 1 – Nginx Service Stopped
+Stopped Nginx and observed that the website became inaccessible.
+
+Command used:
+
+sudo systemctl stop nginx
+
+Fix:
+
+sudo systemctl start nginx
+
+### Scenario 2 – Backend Server Stopped
+Stopped Python HTTP server and observed a 502 Bad Gateway error.
+
+Fix:
+
+python3 -m http.server 8000
+
+## Logs Checked
+
+Nginx logs:
+
+sudo tail -f /var/log/nginx/error.log
+
+System logs:
+
+sudo journalctl -xe
+
+## Monitoring Commands
+
+top
+free -h
+df -h
+
+## Key Learning
+
+Troubleshooting requires checking services, logs, networking, and system resources systematically.
