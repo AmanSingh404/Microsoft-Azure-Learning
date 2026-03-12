@@ -32,7 +32,7 @@ The web server successfully forwarded requests to the application server through
 
 ## Architecture Diagram
 
-![VNet Subsets](vnet-subsets.png)
+![VNet Subsets](vnet-subnets.png)
 
 ## VM Web Public IP
 
