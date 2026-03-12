@@ -26,7 +26,7 @@ Static website hosting allows fast, scalable, and low-cost website deployment wi
 ![Storage Account Overview](storage-account_overview.png)
 
 #Static Website Confiiguration
-![Static Website Config](static-website_config.png)
+![Static Website Config](static-webiste_config.png)
 
 #Website Output
-![Website Output](static-website_output.png)
+![Website Output](static-website_ouput.png)
