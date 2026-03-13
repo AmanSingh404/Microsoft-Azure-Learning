@@ -1,4 +1,4 @@
-# Day 6 – Load Balancing with Nginx
+# Day 5 – Load Balancing with Nginx
 
 ## Objective
 Implement load balancing across multiple backend servers using Nginx.
