@@ -23,10 +23,10 @@ Website successfully hosted on Azure cloud storage.
 Static website hosting allows fast, scalable, and low-cost website deployment without managing servers.
 
 #Storage Account Overview:
-![Storage Account Overview](storage-account_overview.png)
+![Storage Account Overview](screenshots/storage-account_overview.png)
 
 #Static Website Confiiguration
-![Static Website Config](static-webiste_config.png)
+![Static Website Config](screenshots/static-webiste_config.png)
 
 #Website Output
-![Website Output](static-website_ouput.png)
+![Website Output](screenshots/static-website_ouput.png)
