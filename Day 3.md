@@ -32,23 +32,23 @@ The web server successfully forwarded requests to the application server through
 
 ## Architecture Diagram
 
-![VNet Subsets](vnet-subnets.png)
+![VNet Subsets](screenshots/vnet-subnets.png)
 
 ## VM Web Public IP
 
-![VM Web Public IP](vm-web-public-ip.png)
+![VM Web Public IP](screenshots/vm-web-public-ip.png)
 
 ## VM App Private IP
 
-![VM App Private IP](vm-app-private-ip.png)
+![VM App Private IP](screenshots/vm-app-private-ip.png)
 
 ## Nginx Configuration
 
-![Nginx Terminal](nginx-terminal.png)
+![Nginx Terminal](screenshots/nginx-terminal.png)
 
 ## Browser Output
 
-![Browser Output](browser-output.png)
+![Browser Output](screenshots/browser-output.png)
 
 ## Key Learning
 
